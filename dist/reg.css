@@ -1,0 +1,98 @@
+.main {
+    background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,
+    url(images/regbg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 100vh;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-brand {
+    font-size: 45px;
+}
+
+.nav-link1 {
+    text-decoration: none;
+    color: #000;
+    border: 2.5px solid #fff;
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.nav-link1:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: .25rem;
+}
+.reg-head {
+    text-align: center;
+}
+.reg-btn {
+    background-color: #62bb43;
+    color: #fff;
+}
+.reg-p {
+    text-align: center;
+}
+.grp>.form-control {
+    border: 2px solid #62bb43;
+    background-color: transparent;
+    color: #fff;
+}
+.grp>.form-control:focus {
+    border-color: #62bb43;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgb(98, 187, 67, 0.5);
+    color: #fff;
+}
+.grup>.form-control:focus {
+    border: none;
+    box-shadow: none;
+    background-color: #62bb43;
+    color: #fff;
+}
+@media screen and (max-width: 767px) { 
+    .input-lay {
+        margin-bottom: 2em;
+    }
+ }
+ .form-control::-webkit-input-placeholder {
+  color: #fff;
+}
